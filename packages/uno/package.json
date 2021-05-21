@@ -1,0 +1,6 @@
+{
+  "name": "lerna-test-do-not-use-uno",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
