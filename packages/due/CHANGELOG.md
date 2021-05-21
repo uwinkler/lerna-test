@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/uwinkler/lerna-test/compare/v1.0.5...v1.1.0) (2021-05-21)
+
+
+### Features
+
+* test2223 ([59f5f75](https://github.com/uwinkler/lerna-test/commit/59f5f75716c7d93b82b4ead6c47d4b1599dbe8f8))
+
+
+
+
+
 ## [1.0.5](https://github.com/uwinkler/lerna-test/compare/v1.0.4...v1.0.5) (2021-05-21)
 
 **Note:** Version bump only for package lerna-test-do-not-use-due
