@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+
+const { promisify } = require('util')
+const { exec } = require('child_process')
+
+exec('git branch --show-current', (err, stdout, stderr) => {
+  const branch = stdout.trim()
+
+  //
+  // We try to find the GRDL ticket id, if present
+  //
+  // Looks for GRDL-12345 in strings like this: feature/GRLD-1234567-abc-def
+  //
+  const GRDL = /(GRDL-\d*)/
+  const search = branch.match(GRDL)
+
+  if (search != null) {
+    return console.log(search[0].toLocaleLowerCase())
+  }
+
+  //
+  // ...otherwise we return the branch without any '/' and in lowercase
+  //
+  console.log(branch.replace(/\//gm, '-').toLocaleLowerCase())
+})

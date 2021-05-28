@@ -6,6 +6,10 @@
   "author": "uli.winkler <uli.winkler@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "cross-env": "^7.0.3",
     "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "publish-with-lerna": "cross-env TAG=`./lerna-branch-name` lerna publish --conventional-commits  --dist-tag $TAG --canary  --preid $TAG"
   }
 }
