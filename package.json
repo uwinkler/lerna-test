@@ -7,9 +7,11 @@
   "license": "MIT",
   "dependencies": {
     "cross-env": "^7.0.3",
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "typescript": "^4.3.2"
   },
   "scripts": {
+    "build": "lerna exec yarn build",
     "publish-with-lerna": "lerna publish --conventional-commits  --dist-tag $(./lerna-branch-name) --canary  --preid $(./lerna-branch-name) --yes"
   }
 }
