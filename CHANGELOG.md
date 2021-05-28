@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.3](https://github.com/uwinkler/lerna-test/compare/v1.1.2...v1.1.3) (2021-05-28)
+
+
+### Bug Fixes
+
+* bla ([7a1816c](https://github.com/uwinkler/lerna-test/commit/7a1816c74dfa63618f9260f4df5d84cfa940dacc))
+* test ([1373ac1](https://github.com/uwinkler/lerna-test/commit/1373ac1651ba6adb9d092df3d1f2ba29e7dfe832))
+* test ([6a4070b](https://github.com/uwinkler/lerna-test/commit/6a4070bb35138c7604f11dba617cf2e0bf065e33))
+* test2 ([f60a585](https://github.com/uwinkler/lerna-test/commit/f60a5850411f620105a2ddfb3ebfaec76b075b40))
+* yarn lock ([893acbd](https://github.com/uwinkler/lerna-test/commit/893acbde0c91b104a81f5f0966dc9bcbc14cef26))
+
+
+
+
+
 ## [1.1.2](https://github.com/uwinkler/lerna-test/compare/v1.1.1...v1.1.2) (2021-05-21)
 
 **Note:** Version bump only for package my-lerna-test-do-not-use
