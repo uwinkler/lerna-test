@@ -1,6 +1,6 @@
 {
   "name": "lerna-test-do-not-use-due",
-  "version": "1.1.4-grdl-2345.1+4167f87",
+  "version": "1.1.4",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
